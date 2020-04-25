@@ -16,12 +16,6 @@
 .shadow.floatable:hover {
   box-shadow: 0 2px 4px 0px rgba(0,0,0,0.1), 0 4px 8px 0px rgba(0,0,0,0.1), 0 8px 16px 0px rgba(0,0,0,0.1);
 }
-@font-face {
-  font-family: 'Varela Round';
-  src: url("https://cdn.jsdelivr.net/gh/xaoxuu/cdn-fonts/VarelaRound/VarelaRound-Regular.ttf");
-  font-weight: 'normal';
-  font-style: 'normal';
-}
 * {
   box-sizing: border-box;
   outline: none;
@@ -32,7 +26,7 @@ html {
   color: #444;
   width: 100%;
   height: 100%;
-  font-family: 'Varela Round', "Microsoft YaHei", "Source Sans Pro", "Helvetica Neue", Menlo, Monaco, monospace, "Lucida Console", sans-serif, Helvetica, "Hiragino Sans GB", "Hiragino Sans GB W3", Source Han Sans CN Regular, WenQuanYi Micro Hei, Arial, sans-serif;
+  font-family: "Microsoft YaHei", "Source Sans Pro", "Helvetica Neue", Menlo, Monaco, monospace, "Lucida Console", sans-serif, Helvetica, "Hiragino Sans GB", "Hiragino Sans GB W3", Source Han Sans CN Regular, WenQuanYi Micro Hei, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
@@ -791,9 +785,6 @@ div.note::before {
   color: #696969;
   content: '\f054';
 }
-div.note::before {
-  content: '\f054';
-}
 div.note.quote {
   background: #e8f4fd;
   border-color: #2196f3;
@@ -1208,51 +1199,6 @@ div.videos[col='4'] iframe {
   font-size: 0.75rem;
   padding: 4px 8px;
 }
-.highlight.html .code:before {
-  content: "HTML";
-}
-.highlight.js .code:before {
-  content: "JS";
-}
-.highlight.bash .code:before {
-  content: "bash";
-}
-.highlight.shell .code:before {
-  content: "shell";
-}
-.highlight.css .code:before {
-  content: "css";
-}
-.highlight.less .code:before {
-  content: "less";
-}
-.highlight.stylus .code:before {
-  content: "stylus";
-}
-.highlight.swift .code:before {
-  content: "Swift";
-}
-.highlight.objc .code:before {
-  content: "ObjC";
-}
-.highlight.c .code:before {
-  content: "C";
-}
-.highlight.cpp .code:before {
-  content: "C++";
-}
-.highlight.java .code:before {
-  content: "Java";
-}
-.highlight.python .code:before {
-  content: "Python";
-}
-.highlight.yaml .code:before {
-  content: "YAML";
-}
-.highlight.plain .code:before {
-  content: "";
-}
 pre .line {
   color: rgba(68,68,68,0.9);
 }
@@ -1338,7 +1284,7 @@ pre .coffeescript .title {
   z-index: 999;
   text-align: center;
   padding: 30px 36px 29px 36px;
-  border-radius: 8px;
+  border-radius: 12px;
   box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
   font-weight: bold;
   font-size: 1.125rem;
@@ -1358,46 +1304,6 @@ pre .coffeescript .title {
 .alert.alert-danger {
   color: #ef0b01;
   background-color: #fff;
-}
-.highlight {
-  position: relative;
-}
-.btn-copy {
-  display: inline-block;
-  cursor: pointer;
-  border: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
-  -webkit-appearance: none;
-  font-family: Menlo, Menlo, Monaco, courier, monospace, "Lucida Console", 'Source Code Pro', "Microsoft YaHei", Helvetica, Arial, sans-serif, 'Ubuntu';
-  font-size: calc(0.8125rem - 1px);
-  font-weight: bold;
-  padding: 4px 8px;
-  color: rgba(68,68,68,0.65);
-  background: #fff;
-  border-bottom-left-radius: 4px;
-  border-top-right-radius: 4px;
-  box-shadow: 0 1px 2px 0px rgba(0,0,0,0.1);
-  position: absolute;
-  top: 0;
-  right: 0;
-  opacity: 0;
-  transition: all 0.28s ease;
-  -moz-transition: all 0.28s ease;
-  -webkit-transition: all 0.28s ease;
-  -o-transition: all 0.28s ease;
-}
-.btn-copy >i {
-  margin-right: 4px;
-}
-.btn-copy:hover {
-  color: #ff5722;
-  background: #ffeee8;
-}
-.highlight:hover .btn-copy {
-  opacity: 1;
 }
 div.fancybox {
   margin: 1rem 0;
@@ -1483,7 +1389,7 @@ div.fancybox.stretch>p img {
   display: inline;
 }
 .l_main #comments #valine_container .vwrap {
-  border-radius: 8px;
+  border-radius: 12px;
   border-style: dashed;
   border: 1px dashed rgba(68,68,68,0.3);
   transition: all 0.28s ease;
@@ -1530,7 +1436,7 @@ div.fancybox.stretch>p img {
 .l_main #comments #valine_container button {
   border: none;
   padding: 9px 2rem 7px 2rem;
-  border-radius: 4px;
+  border-radius: 2px;
   background: #f1f1f1;
   color: #444;
   transition: all 0.28s ease;
@@ -2479,7 +2385,7 @@ footer .copyright p {
   display: flex;
   flex-wrap: wrap;
   margin: -8px;
-  border-radius: 8px;
+  border-radius: 12px;
   align-items: flex-start;
   line-height: 1.3;
 }
@@ -2731,7 +2637,7 @@ footer .copyright p {
   position: relative;
   margin: 16px auto;
   padding: 24px;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 @media screen and (max-width: 425px) {
   .l_main .post {
@@ -2990,7 +2896,7 @@ div.hoverbox >div.target {
   display: none;
   position: absolute;
   background: #fff;
-  border-radius: 8px;
+  border-radius: 12px;
   box-shadow: 0 2px 4px 0px rgba(0,0,0,0.1), 0 4px 8px 0px rgba(0,0,0,0.1), 0 8px 16px 0px rgba(0,0,0,0.1);
   padding: 8px;
   margin-left: -4px;
@@ -3110,7 +3016,7 @@ div.hoverbox:hover >div.target {
   line-height: 64px;
   padding: 0 24px;
   font-size: 1.25rem;
-  font-family: 'Varela Round', "Microsoft YaHei", "Source Sans Pro", "Helvetica Neue", Menlo, Monaco, monospace, "Lucida Console", sans-serif, Helvetica, "Hiragino Sans GB", "Hiragino Sans GB W3", Source Han Sans CN Regular, WenQuanYi Micro Hei, Arial, sans-serif;
+  font-family: "Microsoft YaHei", "Source Sans Pro", "Helvetica Neue", Menlo, Monaco, monospace, "Lucida Console", sans-serif, Helvetica, "Hiragino Sans GB", "Hiragino Sans GB W3", Source Han Sans CN Regular, WenQuanYi Micro Hei, Arial, sans-serif;
 }
 .l_header .wrapper .nav-main .title img {
   height: 64px;
@@ -3121,7 +3027,7 @@ div.hoverbox:hover >div.target {
 }
 .l_header .nav-sub .title {
   font-size: 1rem;
-  font-family: 'Varela Round', "Microsoft YaHei", "Source Sans Pro", "Helvetica Neue", Menlo, Monaco, monospace, "Lucida Console", sans-serif, Helvetica, "Hiragino Sans GB", "Hiragino Sans GB W3", Source Han Sans CN Regular, WenQuanYi Micro Hei, Arial, sans-serif;
+  font-family: "Microsoft YaHei", "Source Sans Pro", "Helvetica Neue", Menlo, Monaco, monospace, "Lucida Console", sans-serif, Helvetica, "Hiragino Sans GB", "Hiragino Sans GB W3", Source Han Sans CN Regular, WenQuanYi Micro Hei, Arial, sans-serif;
   line-height: 1.2;
   max-height: 64px;
   white-space: normal;
@@ -3312,8 +3218,8 @@ ul.list-v {
   position: absolute;
   background: #fff;
   box-shadow: 0 4px 8px 0px rgba(0,0,0,0.1);
-  margin-top: -6px;
-  border-radius: 4px;
+  margin-top: -8px;
+  border-radius: 6px;
   border: 1px solid #e7e7e7;
   padding: 8px 0;
 }
@@ -3477,21 +3383,18 @@ ul.list-v >li>a.active {
 .menu-phone li ul.list-v ul {
   right: calc(100% - 0.5 * 16px);
 }
-.l_header .wrapper {
-  max-width: 1080px;
-  margin: auto;
-}
-@media screen and (min-width: 2048px) {
-  .l_header .wrapper {
-    max-width: 55vw;
-  }
+.l_header .wrapper .m_search {
+  margin-left: auto;
+  margin-right: 16px;
 }
 .l_header .wrapper .menu {
-  flex: 1 1 auto;
-  margin: 0 16px 0 0;
+  order: 1;
 }
-.l_header .wrapper .menu .list-v ul {
-  left: calc(100% - 0.5 * 16px);
+.l_header .wrapper .menu li ul.list-v {
+  right: 0;
+}
+.l_header .wrapper .menu li ul.list-v ul {
+  right: calc(100% - 0.5 * 16px);
 }
 .menu-phone {
   display: none;
@@ -3524,8 +3427,8 @@ ul.list-v >li>a.active {
   .l_header {
     max-width: 65vw;
     left: calc((100% - 65vw) * 0.5);
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -3578,7 +3481,7 @@ ul.list-v >li>a.active {
 .l_main .prev-next section {
   color: rgba(68,68,68,0.65);
   padding: 16px;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 .l_main .prev-next section:hover {
   color: #ff5722;
@@ -3960,7 +3863,7 @@ ul.list-v >li>a.active {
   z-index: 0;
   background: #fff;
   margin-top: 16px;
-  border-radius: 8px;
+  border-radius: 12px;
   width: 100%;
   display: none;
 }
@@ -3986,8 +3889,8 @@ ul.list-v >li>a.active {
   }
 }
 .widget header {
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
   font-weight: bold;
   line-height: 1.5em;
   padding: calc(16px - 2px);
@@ -4084,8 +3987,8 @@ ul.list-v >li>a.active {
   justify-content: center;
   width: 240px;
   height: 240px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 @media screen and (max-width: 768px) {
   .widget.blogger .content img {
@@ -4209,7 +4112,7 @@ ul.list-v >li>a.active {
 }
 .widget.grid .content .grid a {
   text-align: center;
-  border-radius: 8px;
+  border-radius: 12px;
   margin: 4px 0;
   padding: 4px 8px;
   display: flex;
@@ -4332,20 +4235,20 @@ ul.list-v >li>a.active {
   max-width: 500px;
   border-radius: 4px;
   color: #444;
-  font-family: 'Varela Round', "Microsoft YaHei", "Source Sans Pro", "Helvetica Neue", Menlo, Monaco, monospace, "Lucida Console", sans-serif, Helvetica, "Hiragino Sans GB", "Hiragino Sans GB W3", Source Han Sans CN Regular, WenQuanYi Micro Hei, Arial, sans-serif;
+  font-family: "Microsoft YaHei", "Source Sans Pro", "Helvetica Neue", Menlo, Monaco, monospace, "Lucida Console", sans-serif, Helvetica, "Hiragino Sans GB", "Hiragino Sans GB W3", Source Han Sans CN Regular, WenQuanYi Micro Hei, Arial, sans-serif;
 }
 .aplayer .aplayer-list {
   text-align: left;
 }
 @media screen and (max-width: 500px) {
   .aplayer {
-    border-radius: 8px;
+    border-radius: 12px;
   }
 }
 .l_side .toc-wrapper {
   z-index: 1;
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 12px;
   position: sticky;
   top: 80px;
   transition: all 0.28s ease;
@@ -4390,7 +4293,7 @@ ul.list-v >li>a.active {
     max-width: calc(100% - 2 * 16px);
     top: 32px;
     right: 16px;
-    border-radius: 4px;
+    border-radius: 6px;
     box-shadow: 0 4px 8px 0px rgba(0,0,0,0.1);
     border: 1px solid #e7e7e7;
     visibility: hidden;
