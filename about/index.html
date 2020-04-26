@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head hexo-theme='https://volantis.js.org/#2.4.0'>
+<head hexo-theme='https://volantis.js.org/#2.6.4'>
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
@@ -92,7 +92,7 @@
           
           
           
-            VOLANTIS <b><sup style='color:#3AA757'>2.4.0</sup></b>
+            VOLANTIS <b><sup style='color:#3AA757'>2.6.4</sup></b>
           
         </a>
       
@@ -169,11 +169,11 @@
             
             
               <li>
-                <a class="flat-box" href=http://xiaotaiyangzhijia.top/
+                <a class="flat-box" href=/friends/
                   
                   
                   
-                    id="http:xiaotaiyangzhijiatop"
+                    id="friends"
                   >
                   <i class='fas fa-link fa-fw'></i>友链
                 </a>
@@ -204,7 +204,7 @@
       <div class="m_search">
         <form name="searchform" class="form u-search-form">
           <i class="icon fas fa-search fa-fw"></i>
-          <input type="text" class="input u-search-input" placeholder="搜索" />
+          <input type="text" class="input u-search-input" placeholder="Search..." />
         </form>
       </div>
 
@@ -283,11 +283,11 @@
               
             
               <li>
-                <a class="flat-box" href=http://xiaotaiyangzhijia.top/
+                <a class="flat-box" href=/friends/
                   
                   
                   
-                    id="http:xiaotaiyangzhijiatop"
+                    id="friends"
                   >
                   <i class='fas fa-link fa-fw'></i>友链
                 </a>
@@ -358,9 +358,9 @@
             
               
 <div class='new-meta-item author'>
-  <a href="" rel="nofollow">
-    <img src="">
-    <p>鸽儿</p>
+  <a href="https://xaoxuu.com" target="_blank" rel="nofollow noopener">
+    <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png">
+    <p>Mr. X</p>
   </a>
 </div>
 
@@ -440,6 +440,8 @@
           
           >
           
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qq.png">
+          
         </a>
       
     
@@ -450,6 +452,8 @@
           
           >
           
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/qzone.png">
+          
         </a>
       
     
@@ -459,6 +463,8 @@
           href="http://service.weibo.com/share/share.php?url=http://yoursite.com/about/index.html&title=about - ger's world&summary="
           
           >
+          
+            <img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/logo/128/weibo.png">
           
         </a>
       
@@ -580,7 +586,7 @@
             
           
             
-              <a href="https://github.com/ger233"
+              <a href="https://github.com/xaoxuu"
                 class="social fab fa-github flat-btn"
                 target="_blank"
                 rel="external nofollow noopener noreferrer">
@@ -643,6 +649,18 @@
   <script async src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2/js/instant_page.js" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
 
 
+  <script src="https://cdn.jsdelivr.net/npm/scrollreveal@4.0.6/dist/scrollreveal.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      ScrollReveal().reveal('.l_main .reveal', {
+        distance: '8px',
+        duration: '800',
+        interval: '100',
+        scale: '1'
+      });
+    });
+  </script>
+
 
   
 <script src="https://cdn.jsdelivr.net/npm/node-waves@0.7.6/dist/waves.min.js"></script>
@@ -672,7 +690,7 @@
 
     <script type="text/javascript">
       $(function(){
-        var imgs=["https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/67239FBB-E15D-4F4F-8EE8-0F1C9F3C4E7C.jpeg"];
+        var imgs=["https://cdn.jsdelivr.net/gh/xaoxuu/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg"];
         if ('true' == 'true') {
           function shuffle(arr){
             /*From countercurrent-time*/
@@ -726,7 +744,7 @@
 
   
     
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/valine.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/valine@1.4/dist/Valine.min.js"></script>
 
   
   <script>
@@ -735,7 +753,7 @@
     return GUEST_INFO.indexOf(item) > -1
   });
   var REQUIRED_FIELDS = ['nick','mail','link'];
-  var requiredFields = ''.split(',').filter(function(item){
+  var requiredFields = 'nick,mail'.split(',').filter(function(item){
     return REQUIRED_FIELDS.indexOf(item) > -1
   });
   var valine = new Valine();
@@ -762,16 +780,16 @@
     el: '#valine_container',
     meta: meta,
     
-    appId: "kgylodJlLUrJuggnyVs5W3Mc-gzGzoHsz",
-    appKey: "37keJpdawJiUxvV0F5qS1RyT",
+    appId: "dogUA2FSKGTo029M1SEwGROT-MdYXbMMI",
+    appKey: "u0NdtQ8nvHoMdJPSYqm1LRxE",
     placeholder: "快来评论吧~",
     pageSize:'10',
-    avatar:'mp',
+    avatar:'robohash',
     lang:'zh-cn',
-    visitor: 'false',
+    visitor: 'true',
     highlight: 'true',
-    mathJax: '',
-    enableQQ: '',
+    mathJax: 'false',
+    enableQQ: 'true',
     requiredFields: requiredFields,
     emojiCDN: 'https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/emoji/valine/',
     emojiMaps: emojiMaps
@@ -788,7 +806,7 @@
 
 
   
-<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.4/js/search.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-volantis@2.6.4/js/search.js"></script>
 
 
 
