@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-03T11:07:11.711Z</updated>
+  <updated>2020-05-20T13:21:56.116Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>部署战略</title>
+    <title>图片上传</title>
+    <link href="http://yoursite.com/2020/05/20/%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0/"/>
+    <id>http://yoursite.com/2020/05/20/%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0/</id>
+    <published>2020-05-20T13:11:59.311Z</published>
+    <updated>2020-05-20T13:21:56.116Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://qamss5meb.bkt.clouddn.com/%E8%96%9B%E5%A9%B7%E7%8E%89.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;http://qamss5meb.bkt.clouddn.com/%E8%96%9B%E5%A9%B7%E7%8E%89.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>部署战略——将博客上传到网络上</title>
     <link href="http://yoursite.com/2020/05/03/%E9%83%A8%E7%BD%B2%E6%88%98%E7%95%A5/"/>
     <id>http://yoursite.com/2020/05/03/%E9%83%A8%E7%BD%B2%E6%88%98%E7%95%A5/</id>
     <published>2020-05-03T08:47:12.000Z</published>
-    <updated>2020-05-03T11:07:11.711Z</updated>
+    <updated>2020-05-20T08:46:27.147Z</updated>
     
     <content type="html"><![CDATA[<p>今天这篇博文所说的问题，我没有实质性的解决办法。之所以写一来是我确实在这个地方停了很久，二来我认为我有必要鼓励在此遇难的广大好友。毕竟能看到我这边博客的都是有缘人。</p><a id="more"></a><p>首先我这篇博客主要说的是“如何将本地博客部署到网络上”。</p><p>推送俩链接 <a href="https://yangkai123.top" target="_blank" rel="noopener">https://yangkai123.top</a>        <a href="https://xiaotaiyangzhijia.top" target="_blank" rel="noopener">https://xiaotaiyangzhijia.top</a> 本人就是根据这俩链接完成。“本地博客部署到网络上”的精髓就是“坚持不懈，反复操作，科学求助”掌握上面的三点，你肯定会成功的。上面推荐的两个链接很全面，在不出意外下，这两个链接可以直接带你走上人生巅峰。不过，以本人的观察，一步登天的例子少之又少。话不多说，祝大家好运。</p><p>注：此博客只是精神食粮，请勿上升到技术层面。</p>]]></content>
     
@@ -63,11 +86,11 @@
   </entry>
   
   <entry>
-    <title>漫漫长征途</title>
+    <title>漫漫长征途——博文写作</title>
     <link href="http://yoursite.com/2020/04/30/%E6%BC%AB%E6%BC%AB%E9%95%BF%E5%BE%81%E9%80%94/"/>
     <id>http://yoursite.com/2020/04/30/%E6%BC%AB%E6%BC%AB%E9%95%BF%E5%BE%81%E9%80%94/</id>
     <published>2020-04-30T14:59:22.000Z</published>
-    <updated>2020-05-03T08:14:33.358Z</updated>
+    <updated>2020-05-20T08:49:30.040Z</updated>
     
     <content type="html"><![CDATA[<h3 id="一、写作工具"><a href="#一、写作工具" class="headerlink" title="一、写作工具"></a>一、写作工具</h3><p>我这边采用的是<a href="https://developer.github.com/v3/markdown/" target="_blank" rel="noopener">markdown</a>的开发工具，个人推荐本地版本<a href="https://www.typora.io/" target="_blank" rel="noopener">typora</a>。以下的环境都是在typora的环境中操作的。</p><a id="more"></a><h3 id="二、新建博文"><a href="#二、新建博文" class="headerlink" title="二、新建博文"></a>二、新建博文</h3><p>在git环境中执行以下代码</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">new</span> <span class="string">"博文的名字"</span></span><br></pre></td></tr></table></figure><p>随后在_posts下生成“博文的名字”的文件，右击打开方式为typora。（这边有更方便的操作，自行网上查找，由于本人这边设置失败，就不介绍这个方法了，怕误人子弟。）打开成功之后便可以开始写作之旅了，<a href="https://www.runoob.com/markdown/md-tutorial.html" target="_blank" rel="noopener">markdown</a>(一些关于markdown的语法)。</p><h3 id="三、本地查看"><a href="#三、本地查看" class="headerlink" title="三、本地查看"></a>三、本地查看</h3><p><strong><em>四步走</em></strong></p><ol><li>清除就数据</li></ol><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure><pre><code>2.生成新数据</code></pre><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure><p>​             3.启动hexo 服务</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>​            4.博客浏览</p><p>​        访问网址<a href="http://localhost:4000/，即可查询更新的博文内容。" target="_blank" rel="noopener">http://localhost:4000/，即可查询更新的博文内容。</a></p>]]></content>
     
@@ -113,11 +136,11 @@
   </entry>
   
   <entry>
-    <title>雏鹰展翅</title>
+    <title>雏鹰展翅——环境初步配置</title>
     <link href="http://yoursite.com/2020/04/27/%E9%9B%8F%E9%B9%B0%E5%B1%95%E7%BF%85/"/>
     <id>http://yoursite.com/2020/04/27/%E9%9B%8F%E9%B9%B0%E5%B1%95%E7%BF%85/</id>
     <published>2020-04-27T04:08:55.000Z</published>
-    <updated>2020-04-30T14:44:09.276Z</updated>
+    <updated>2020-05-20T08:48:57.306Z</updated>
     
     <content type="html"><![CDATA[<p>有很多的大神都在网上分享了自己创建博客的过程，都大同小异。创建博客的过程都是一样的，不一样的是其中遇到的问题。在我的博客中我分享我建立博客中遇到的问题以及我解决的办法，希望对大家有所帮助。</p><a id="more"></a><h3 id="一、配置环境"><a href="#一、配置环境" class="headerlink" title="一、配置环境"></a>一、配置环境</h3><p>在我的另一篇博文中我提到过安装环境，下面所有对博客的操作都基于<a href="">node</a>和<a href="">git</a>安装成功。（详细安装步骤请访问<a href="http://www.yangkai123.top/posts/2501011965/）" target="_blank" rel="noopener">http://www.yangkai123.top/posts/2501011965/）</a></p><h3 id="二、安装hexo"><a href="#二、安装hexo" class="headerlink" title="二、安装hexo"></a>二、安装hexo</h3><p>在安装hexo的过成中我并没有遇到任何问题，一般这边并不会出现问题，所以这边我就不详细讲述安装的步骤。网上有很多资源可以参考。</p><h3 id="三、本地预览"><a href="#三、本地预览" class="headerlink" title="三、本地预览"></a>三、本地预览</h3><p>记住本地预览是支持网上预览的基础，如果本地不可预览，则一定出现了问题。在此处我本地预览并没有出现任何错误。输入以下代码进行本地预览（在git环境中操作）</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>出现<a href="http://localhost:4000/字样则操作成功。如图所示" target="_blank" rel="noopener">http://localhost:4000/字样则操作成功。如图所示</a></p><p><img src="../picture/04302238.png" alt=""></p><p>浏览页面显示如下</p><p><img src="../picture/04302240.png" alt=""></p><p>小伙伴们，这边可以放心大胆的做。因为这边很少出问题。所以在下就不详细的出教程了。详细过程请移步本网站友链。</p>]]></content>
     
@@ -157,11 +180,11 @@
   </entry>
   
   <entry>
-    <title>初出茅庐</title>
+    <title>初出茅庐——博客小心得</title>
     <link href="http://yoursite.com/2020/04/25/%E5%88%9D%E5%87%BA%E8%8C%85%E5%BA%90/"/>
     <id>http://yoursite.com/2020/04/25/%E5%88%9D%E5%87%BA%E8%8C%85%E5%BA%90/</id>
     <published>2020-04-25T07:14:33.000Z</published>
-    <updated>2020-05-03T08:13:57.892Z</updated>
+    <updated>2020-05-20T08:47:03.558Z</updated>
     
     <content type="html"><![CDATA[<p>数月以来，跟着老师的步骤过关斩将。不知道给老师累加了多少访客记录。</p><p>  老师刚布置下来的时候我还真没当回事，过了好几天，同桌给我发了个信息问我<a href="https://git-scm.com/" target="_blank" rel="noopener">git</a>的安装包能不能下载，那时候我才开始了坐上博客的“马车”一路颠簸。</p><a id="more"></a><p>  博客从2月26号到现在4月份，要是采访我一路过来的感受，我会对着镜头说：“取经之路，道阻且长！”</p><p>  作为合格的战士“知己知彼，百战不殆”是最起码的战略。一顿猛虎操作之后，明白了大致的情况。写博客跟<a href="https://hexo.io/" target="_blank" rel="noopener">hexo</a>有很大的关系。<a href="https://hexo.io/" target="_blank" rel="noopener">hexo</a>是一款<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">Node.js</a>支持的快速、简单、强大的博客框架。（这边借鉴<a href="http://www.yangkai123.top" target="_blank" rel="noopener">http://www.yangkai123.top</a>，关于hexo的详细资料可以根据官网或者我推荐的链接自行查找）大致了解下来，着手实践了。</p><p>  在配置环境的时候就出现了问题。（需安装<a href="https://nodejs.org/en/download/" target="_blank" rel="noopener">node</a>和<a href="https://git-scm.com/" target="_blank" rel="noopener">git</a>）git无论如何都安装不上去，资料也查了，办法也都试了，排除了网上能查到的所有问题还是安装不了。git卸载安装三天我做了没有十遍也有九遍，就差没把电脑拆开直接将git塞进去。无奈之际，只能找老师求助，疫情期间老师远程控制我的电脑，我蹲在电脑前面生怕错过重要的步骤，一开始老师也是按照我之前的步骤按部就班，发现没有丝毫起色之后的一顿操作看的我是不明觉厉。安装成功后，急忙问老师问题出在哪里，老师也是不清楚根本原因说了一句“可能是网的原因”就匆匆下线了，估计这次元气也是大伤了。</p><p>  第一个难关算是过去了，没想到还没喘上几口气，下一步又是踩了个空。</p><p>  在于之抗衡的过程中我遇到一位与我同甘共苦的密友。我们的进度甚至是遇到的困难几乎一摸一样，因此我们互相成为了对方建设博客路上亲密无间的朋友，算是博客路上遇到的知己。</p>]]></content>
     
