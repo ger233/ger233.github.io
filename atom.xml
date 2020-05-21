@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-21T05:55:47.445Z</updated>
+  <updated>2020-05-21T07:11:48.526Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2020/05/20/%E6%96%91%E9%A9%B3%E9%99%86%E7%A6%BB/"/>
     <id>http://yoursite.com/2020/05/20/%E6%96%91%E9%A9%B3%E9%99%86%E7%A6%BB/</id>
     <published>2020-05-20T14:42:11.000Z</published>
-    <updated>2020-05-21T05:55:47.445Z</updated>
+    <updated>2020-05-21T07:11:48.526Z</updated>
     
-    <content type="html"><![CDATA[<p>在520这么神圣浪漫登记结婚最多的一天写一篇美好的但来自单身狗的自我慰藉的技术博文。</p><p>“窈窕淑女，君子好逑”</p><a id="more"></a><p>“爱美之心人皆有之”，看到一个好看的小姐姐帅气的小哥哥都会忍不住想要多看几眼。当然，博客也是这样呀。你光有文字没图片，就给读者产生一种视觉疲劳，再棒的内容，再牛逼的技术，也不比图文并茂的博客来的点击率多。</p><p>下面就简单介绍一下，如何丰富自己的博客。</p><p>方案一</p><p>借助<a href="https://www.qiniu.com/" target="_blank" rel="noopener">七牛云</a>平台</p><p>1.登录七牛云平台</p><p><img src="../picture/2.jpg" alt=""></p><p>2.点击管理控制台</p><p><img src="../picture/3.jpg" alt=""></p><p>3.点击对象存储</p><p><img src="../picture/4.jpg" alt=""></p><p>4.填写存储空间的名字&gt;存储地区&gt;访问控制为公开&gt;确定</p><p><img src="../picture/6.jpg" alt=""></p><p>5.点击新建好的存储空间&gt;文件管理&gt;上传文件&gt;选择想要上传的图片</p><p><img src="../picture/7.jpg" alt=""></p><p><img src="../picture/8.jpg" alt=""></p><p><img src="../picture/9.jpg" alt=""></p><p>6.点击上传图片的详情&gt;复制文件链接</p><p><img src="../picture/10.jpg" alt=""></p><p><img src="../picture/11.jpg" alt=""></p><p>7.打开typora软件上传图片链接（格式为“!”“[]”“()”）</p><p><img src="../picture/12.jpg" alt=""></p><p>8.在git环境中输入</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>9.本地浏览，看到上传的图片即图片上传成功</p><p><img src="../picture/13.jpg" alt=""></p><p>注：七牛云上传的图片只能提供30天的存储，如果使用七牛云图床的朋友则需要30天后重新上传图片。并不建议各位朋友使用七牛云图床。下面我将介绍另一个上传图片的方法。</p>]]></content>
+    <content type="html"><![CDATA[<p>在520这么神圣浪漫登记结婚最多的一天写一篇美好的但来自单身狗的自我慰藉的技术博文。</p><p>“窈窕淑女，君子好逑”</p><a id="more"></a><p>“爱美之心人皆有之”，看到一个好看的小姐姐帅气的小哥哥都会忍不住想要多看几眼。当然，博客也是这样呀。你光有文字没图片，就给读者产生一种视觉疲劳，再棒的内容，再牛逼的技术，也不比图文并茂的博客来的点击率多。</p><p>下面就简单介绍一下，如何丰富自己的博客。</p><p>方案一</p><p>借助<a href="https://www.qiniu.com/" target="_blank" rel="noopener">七牛云</a>平台</p><p>1.登录七牛云平台</p><p><img src="http://qamss5meb.bkt.clouddn.com/2.jpg" alt=""></p><p>2.点击管理控制台</p><p><img src="http://qamss5meb.bkt.clouddn.com/3.jpg" alt=""></p><p>3.点击对象存储</p><p><img src="http://qamss5meb.bkt.clouddn.com/4.jpg" alt=""></p><p>4.填写存储空间的名字&gt;存储地区&gt;访问控制为公开&gt;确定</p><p><img src="http://qamss5meb.bkt.clouddn.com/6.jpg" alt=""></p><p>5.点击新建好的存储空间&gt;文件管理&gt;上传文件&gt;选择想要上传的图片</p><p><img src="http://qamss5meb.bkt.clouddn.com/7.jpg" alt=""></p><p><img src="http://qamss5meb.bkt.clouddn.com/8.jpg" alt=""></p><p><img src="http://qamss5meb.bkt.clouddn.com/9.jpg" alt=""></p><p>6.点击上传图片的详情&gt;复制文件链接</p><p><img src="http://qamss5meb.bkt.clouddn.com/10.jpg" alt=""></p><p><img src="http://qamss5meb.bkt.clouddn.com/11.jpg" alt=""></p><p>7.打开typora软件上传图片链接（格式为“!”“[]”“()”）</p><p><img src="http://qamss5meb.bkt.clouddn.com/12.jpg" alt=""></p><p>8.在git环境中输入</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>9.本地浏览，看到上传的图片即图片上传成功</p><p><img src="http://qamss5meb.bkt.clouddn.com/13.jpg" alt=""></p><p>注：七牛云上传的图片只能提供30天的存储，如果使用七牛云图床的朋友则需要30天后重新上传图片。并不建议各位朋友使用七牛云图床。下面我将介绍另一个上传图片的方法。</p><p>方法二</p><p>本地上传图片</p><p>这个方法就很简单了，想必也是大多数人选择的方法了。一步搞定</p><p>首先，语法“!”“[]”“()”,在“()”中选择想要上产的图片地址，大功告成啦！</p>]]></content>
     
     <summary type="html">
     
@@ -91,9 +91,9 @@
     <link href="http://yoursite.com/2020/05/02/%E7%96%AB%E6%83%85%E9%9A%8F%E7%AC%94/"/>
     <id>http://yoursite.com/2020/05/02/%E7%96%AB%E6%83%85%E9%9A%8F%E7%AC%94/</id>
     <published>2020-05-02T10:44:39.000Z</published>
-    <updated>2020-05-03T08:33:31.549Z</updated>
+    <updated>2020-05-21T06:50:41.426Z</updated>
     
-    <content type="html"><![CDATA[<p>2020年2月，疫情入侵中国领土，搞得全国人民进入紧张的备战状态。如果这次疫情拍成纪录片，那这个纪录片的宣传语绝对是“中国速度”“中国制度”“中国共产党”“中国青年”！</p><a id="more"></a><p>生在中国我深感荣幸，这个以前土的掉渣的国家，如今在生死关头，拼命地抓住了所有的人。都说美国保险好，多少人挣破头颅想要一个美国国籍，多少人为了得到一个外国国籍不择手段。不知道是哪来的小道消息觉得外国待遇好，难道外国人员组成都是商业精英，人文名士？去了就可以成为龙中龙，凤中凤？也许是我目光短浅，不懂里面的门道。</p><p>在网上也会看见一些关于疫情实施情况的短视频，我就感叹“为什么有些人就是愿意为了别人的生命冲在前线？”“为什么在这么绝境的环境中还能喜笑颜开？”“为什么疫情发生的第一选择就是不顾一切地拯救所有人？”疫情发生的时候我还在超市兼职，前一天还在谈论“过年超市需要增加人手”，第二天口罩就全部售完。我还在一无所知的状态下，跟着一起进入了紧急备战的氛围。后来就有了“不可外出”“不可集会”“不能走亲访友”“出门必须戴口罩”“高速被封”等消息，年前还跟朋友约好看《唐探3》，结果所有公共场所都关闭了。停公交，封路口，广播里面放勤洗手。学校一而再再而三的延迟开学，人生中第一次梦想成真就是体验了一把在床上上课的舒适。下了几次雪，油菜花开了，还没等出去跟它们合照又谢了。一年没见的朋友一次一次修改见面时间。去医院看病，所有人不管是老少男女都自觉排队，自觉配合医院的一切检查措施，没有一个人抱怨外面烈日当空。</p><p>一个国家的人民团结起来能这么强大，一个国家的人民也可以拥有同一个目标。原来，“众志成城”是这个样子！</p><p><img src="../picture/yiqingsuib.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<p>2020年2月，疫情入侵中国领土，搞得全国人民进入紧张的备战状态。如果这次疫情拍成纪录片，那这个纪录片的宣传语绝对是“中国速度”“中国制度”“中国共产党”“中国青年”！</p><a id="more"></a><p>生在中国我深感荣幸，这个以前土的掉渣的国家，如今在生死关头，拼命地抓住了所有的人。都说美国保险好，多少人挣破头颅想要一个美国国籍，多少人为了得到一个外国国籍不择手段。不知道是哪来的小道消息觉得外国待遇好，难道外国人员组成都是商业精英，人文名士？去了就可以成为龙中龙，凤中凤？也许是我目光短浅，不懂里面的门道。</p><p>在网上也会看见一些关于疫情实施情况的短视频，我就感叹“为什么有些人就是愿意为了别人的生命冲在前线？”“为什么在这么绝境的环境中还能喜笑颜开？”“为什么疫情发生的第一选择就是不顾一切地拯救所有人？”疫情发生的时候我还在超市兼职，前一天还在谈论“过年超市需要增加人手”，第二天口罩就全部售完。我还在一无所知的状态下，跟着一起进入了紧急备战的氛围。后来就有了“不可外出”“不可集会”“不能走亲访友”“出门必须戴口罩”“高速被封”等消息，年前还跟朋友约好看《唐探3》，结果所有公共场所都关闭了。停公交，封路口，广播里面放勤洗手。学校一而再再而三的延迟开学，人生中第一次梦想成真就是体验了一把在床上上课的舒适。下了几次雪，油菜花开了，还没等出去跟它们合照又谢了。一年没见的朋友一次一次修改见面时间。去医院看病，所有人不管是老少男女都自觉排队，自觉配合医院的一切检查措施，没有一个人抱怨外面烈日当空。</p><p>一个国家的人民团结起来能这么强大，一个国家的人民也可以拥有同一个目标。原来，“众志成城”这般宏伟！</p><p><img src="http://qamss5meb.bkt.clouddn.com/yiqingsuib.jpg" alt=""></p>]]></content>
     
     <summary type="html">
     
