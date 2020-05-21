@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-20T13:21:56.116Z</updated>
+  <updated>2020-05-21T05:55:47.445Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>斑驳陆离——让博客图文并茂</title>
+    <link href="http://yoursite.com/2020/05/20/%E6%96%91%E9%A9%B3%E9%99%86%E7%A6%BB/"/>
+    <id>http://yoursite.com/2020/05/20/%E6%96%91%E9%A9%B3%E9%99%86%E7%A6%BB/</id>
+    <published>2020-05-20T14:42:11.000Z</published>
+    <updated>2020-05-21T05:55:47.445Z</updated>
+    
+    <content type="html"><![CDATA[<p>在520这么神圣浪漫登记结婚最多的一天写一篇美好的但来自单身狗的自我慰藉的技术博文。</p><p>“窈窕淑女，君子好逑”</p><a id="more"></a><p>“爱美之心人皆有之”，看到一个好看的小姐姐帅气的小哥哥都会忍不住想要多看几眼。当然，博客也是这样呀。你光有文字没图片，就给读者产生一种视觉疲劳，再棒的内容，再牛逼的技术，也不比图文并茂的博客来的点击率多。</p><p>下面就简单介绍一下，如何丰富自己的博客。</p><p>方案一</p><p>借助<a href="https://www.qiniu.com/" target="_blank" rel="noopener">七牛云</a>平台</p><p>1.登录七牛云平台</p><p><img src="../picture/2.jpg" alt=""></p><p>2.点击管理控制台</p><p><img src="../picture/3.jpg" alt=""></p><p>3.点击对象存储</p><p><img src="../picture/4.jpg" alt=""></p><p>4.填写存储空间的名字&gt;存储地区&gt;访问控制为公开&gt;确定</p><p><img src="../picture/6.jpg" alt=""></p><p>5.点击新建好的存储空间&gt;文件管理&gt;上传文件&gt;选择想要上传的图片</p><p><img src="../picture/7.jpg" alt=""></p><p><img src="../picture/8.jpg" alt=""></p><p><img src="../picture/9.jpg" alt=""></p><p>6.点击上传图片的详情&gt;复制文件链接</p><p><img src="../picture/10.jpg" alt=""></p><p><img src="../picture/11.jpg" alt=""></p><p>7.打开typora软件上传图片链接（格式为“!”“[]”“()”）</p><p><img src="../picture/12.jpg" alt=""></p><p>8.在git环境中输入</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>9.本地浏览，看到上传的图片即图片上传成功</p><p><img src="../picture/13.jpg" alt=""></p><p>注：七牛云上传的图片只能提供30天的存储，如果使用七牛云图床的朋友则需要30天后重新上传图片。并不建议各位朋友使用七牛云图床。下面我将介绍另一个上传图片的方法。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在520这么神圣浪漫登记结婚最多的一天写一篇美好的但来自单身狗的自我慰藉的技术博文。&lt;/p&gt;
+&lt;p&gt;“窈窕淑女，君子好逑”&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="记录" scheme="http://yoursite.com/categories/%E8%AE%B0%E5%BD%95/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>图片上传</title>
