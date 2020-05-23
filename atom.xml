@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-05-23T04:15:42.520Z</updated>
+  <updated>2020-05-23T04:29:56.703Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2020/05/23/%E5%AE%89%E5%B1%85%E4%B9%90%E4%B8%9A/"/>
     <id>http://yoursite.com/2020/05/23/%E5%AE%89%E5%B1%85%E4%B9%90%E4%B8%9A/</id>
     <published>2020-05-23T03:50:17.000Z</published>
-    <updated>2020-05-23T04:15:42.520Z</updated>
+    <updated>2020-05-23T04:29:56.703Z</updated>
     
-    <content type="html"><![CDATA[<p>中国房产价之所以只涨不跌就是因为中国人“喜稳定，爱安居”！中国人走到哪里都有怀乡情怀，走到哪里都能想到家乡的点点滴滴。中国人有一点就是很奇怪，离开了家乡无论走到多远，无论离开了多长时间，无论在另一个城市生活了十几年，人老了都会想回去  ，正所谓“树高千丈，叶落归根”吧！</p><a id="more"></a><hr><p>想到贺知章的《回乡偶书》</p><p>少小离家老大回，乡音无改鬓毛衰。</p><p>儿童相见不相识，笑问客从何方来。</p><p>离别家乡岁月多，近来人事半消磨。</p><p>唯有门前镜湖水，春风不改旧时波。</p><hr><p>博客也是同样的道理。你的博客虽然在网上有了一席之地，但终究没有给它一个安稳的家。所谓博客的家就是大家略有耳闻的域名了。下面就来详细的介绍一下如何给博客安置一个域名。</p><h2 id="一、购买域名"><a href="#一、购买域名" class="headerlink" title="一、购买域名"></a>一、购买域名</h2><p>没钱谁会白送房子你住,是吧！</p><h5 id="1-登录腾讯云"><a href="#1-登录腾讯云" class="headerlink" title="1.登录腾讯云"></a>1.登录腾讯云</h5><p>登录成功后点击下图红色方框“云产品”，选择“域名管理”。（域名购买有很多平台可以选择，之所以选择腾讯云，主要是腾讯云的价格公道，是我能承受的范围）</p><p><img src="../picture/yuminggoumai1.png" alt=""></p><h5 id="3-查询自己想要的域名"><a href="#3-查询自己想要的域名" class="headerlink" title="3.查询自己想要的域名"></a>3.查询自己想要的域名</h5><h5 id="4-点击购买"><a href="#4-点击购买" class="headerlink" title="4.点击购买"></a>4.点击购买</h5><p>付款成功后，先别高兴。得要“房产”上写了你的名字这才是你的“房子”。</p><h2 id="二、域名解析"><a href="#二、域名解析" class="headerlink" title="二、域名解析"></a>二、域名解析</h2><h5 id="1-解析"><a href="#1-解析" class="headerlink" title="1.解析"></a>1.解析</h5><h5 id="2-添加记录"><a href="#2-添加记录" class="headerlink" title="2.添加记录"></a>2.添加记录</h5><p>  “www”解析至云服务器。记录值为自己服务器，可以是自己电脑的IPv4地址。（如果不知道如何查看自己的ip地址，可以打开cmd，输入ipconfig,就可以查询了。）</p><p>“@”解析至GitHub的仓库（图中我解析为git book，请忽略我这个操作）</p><h5 id="3-新建CNAME文件"><a href="#3-新建CNAME文件" class="headerlink" title="3.新建CNAME文件"></a>3.新建CNAME文件</h5><p>在文件里面将自己买的域名填写进去，保存就好了。</p><p>一定不能拼错文件的名字</p><p>一定不能给文件加后缀名</p><p>一定不能写错域名的名字</p><p>这个操作很简单，但这边错了一点都不会成功。</p><h2 id="三、配置测试"><a href="#三、配置测试" class="headerlink" title="三、配置测试"></a>三、配置测试</h2><p>输入ping +域名，当如图主机的ip地址[185.199.109.153]出来，就说明域名解析成功了。</p><p>解析的过程也是很简单的，但是着重注意细节。一个不起眼的细节就可以让你直接崩溃！</p><p>这篇博客的宗旨就是“细节决定成败”！</p>]]></content>
+    <content type="html"><![CDATA[<p>中国房产价之所以只涨不跌就是因为中国人“喜稳定，爱安居”！中国人走到哪里都有怀乡情怀，走到哪里都能想到家乡的点点滴滴。中国人有一点就是很奇怪，离开了家乡无论走到多远，无论离开了多长时间，无论在另一个城市生活了十几年，人老了都会想回去  ，正所谓“树高千丈，叶落归根”吧！</p><a id="more"></a><hr><p>想到贺知章的《回乡偶书》</p><p>少小离家老大回，乡音无改鬓毛衰。</p><p>儿童相见不相识，笑问客从何方来。</p><p>离别家乡岁月多，近来人事半消磨。</p><p>唯有门前镜湖水，春风不改旧时波。</p><hr><p>博客也是同样的道理。你的博客虽然在网上有了一席之地，但终究没有给它一个安稳的家。所谓博客的家就是大家略有耳闻的域名了。下面就来详细的介绍一下如何给博客安置一个域名。</p><h2 id="一、购买域名"><a href="#一、购买域名" class="headerlink" title="一、购买域名"></a>一、购买域名</h2><p>没钱谁会白送房子你住,是吧！</p><h5 id="1-登录腾讯云"><a href="#1-登录腾讯云" class="headerlink" title="1.登录腾讯云"></a>1.登录腾讯云</h5><p>登录成功后点击下图红色方框“云产品”，选择“域名管理”。（域名购买有很多平台可以选择，之所以选择腾讯云，主要是腾讯云的价格公道，是我能承受的范围）</p><p><img src="assets/yuminggoumai1.png" alt=""></p><h5 id="3-查询自己想要的域名"><a href="#3-查询自己想要的域名" class="headerlink" title="3.查询自己想要的域名"></a>3.查询自己想要的域名</h5><h5 id="4-点击购买"><a href="#4-点击购买" class="headerlink" title="4.点击购买"></a>4.点击购买</h5><p>付款成功后，先别高兴。得要“房产”上写了你的名字这才是你的“房子”。</p><h2 id="二、域名解析"><a href="#二、域名解析" class="headerlink" title="二、域名解析"></a>二、域名解析</h2><h5 id="1-解析"><a href="#1-解析" class="headerlink" title="1.解析"></a>1.解析</h5><h5 id="2-添加记录"><a href="#2-添加记录" class="headerlink" title="2.添加记录"></a>2.添加记录</h5><p>  “www”解析至云服务器。记录值为自己服务器，可以是自己电脑的IPv4地址。（如果不知道如何查看自己的ip地址，可以打开cmd，输入ipconfig,就可以查询了。）</p><p>“@”解析至GitHub的仓库（图中我解析为git book，请忽略我这个操作）</p><h5 id="3-新建CNAME文件"><a href="#3-新建CNAME文件" class="headerlink" title="3.新建CNAME文件"></a>3.新建CNAME文件</h5><p>在文件里面将自己买的域名填写进去，保存就好了。</p><p>一定不能拼错文件的名字</p><p>一定不能给文件加后缀名</p><p>一定不能写错域名的名字</p><p>这个操作很简单，但这边错了一点都不会成功。</p><h2 id="三、配置测试"><a href="#三、配置测试" class="headerlink" title="三、配置测试"></a>三、配置测试</h2><p>输入ping +域名，当如图主机的ip地址[185.199.109.153]出来，就说明域名解析成功了。</p><p>解析的过程也是很简单的，但是着重注意细节。一个不起眼的细节就可以让你直接崩溃！</p><p>这篇博客的宗旨就是“细节决定成败”！</p>]]></content>
     
     <summary type="html">
     
@@ -183,9 +183,9 @@
     <link href="http://yoursite.com/2020/04/30/%E4%BB%8E%E5%86%9B%E8%A1%8C/"/>
     <id>http://yoursite.com/2020/04/30/%E4%BB%8E%E5%86%9B%E8%A1%8C/</id>
     <published>2020-04-30T14:47:10.000Z</published>
-    <updated>2020-04-30T14:56:15.362Z</updated>
+    <updated>2020-05-23T04:30:21.218Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="从军行"><a href="#从军行" class="headerlink" title="从军行"></a><strong>从军行</strong></h3><p><em>唐  王昌龄</em></p><p><em>青海长云暗雪山，孤城遥望玉门关。</em></p><p><em>黄沙百战穿金甲，不破楼兰终不还。</em></p><p><img src="../picture/1-1409221IA1-1588258390143.jpg" alt=""></p>]]></content>
+    <content type="html"><![CDATA[<h3 id="从军行"><a href="#从军行" class="headerlink" title="从军行"></a><strong>从军行</strong></h3><p><em>唐  王昌龄</em></p><p><em>青海长云暗雪山，孤城遥望玉门关。</em></p><p><em>黄沙百战穿金甲，不破楼兰终不还。</em></p><p><img src="assets/1-1409221IA1-1588258390143.jpg" alt=""></p>]]></content>
     
     <summary type="html">
     
