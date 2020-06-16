@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-16T13:12:15.703Z</updated>
+  <updated>2020-06-16T14:46:29.674Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>sss</title>
+    <link href="http://yoursite.com/2020/06/16/sss/"/>
+    <id>http://yoursite.com/2020/06/16/sss/</id>
+    <published>2020-06-16T14:46:29.000Z</published>
+    <updated>2020-06-16T14:46:29.674Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>安居乐业——域名购买及域名解析</title>
