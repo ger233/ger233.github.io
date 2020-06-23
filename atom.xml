@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-20T06:17:55.942Z</updated>
+  <updated>2020-06-23T05:31:10.482Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mirco bit——启用通知</title>
+    <link href="http://yoursite.com/2020/06/23/micro-bit%E2%80%94%E2%80%94%E5%90%AF%E7%94%A8%E9%80%9A%E7%9F%A5/"/>
+    <id>http://yoursite.com/2020/06/23/micro-bit%E2%80%94%E2%80%94%E5%90%AF%E7%94%A8%E9%80%9A%E7%9F%A5/</id>
+    <published>2020-06-23T05:28:15.000Z</published>
+    <updated>2020-06-23T05:31:10.482Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+      <category term="micro bit" scheme="http://yoursite.com/tags/micro-bit/"/>
+    
+  </entry>
   
   <entry>
     <title>micro bit——读写特性</title>
